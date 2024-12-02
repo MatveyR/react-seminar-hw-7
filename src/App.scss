@@ -1,0 +1,32 @@
+.accordion {
+  border: 1px solid transparent;
+  transition: border-color 0.3s;
+
+  &.odd {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  &.even {
+    background-color: dodgerblue;
+    color: whitesmoke;
+  }
+
+  &:hover {
+    border-color: red;
+  }
+
+  .content {
+    font-size: 1rem;
+
+    &:first-letter {
+      font-size: 2rem;
+      color: red;
+    }
+  }
+}
+
+.slider {
+  width: 100px;
+  margin: 0 auto;
+}
